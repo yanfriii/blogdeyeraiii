@@ -1,0 +1,273 @@
+body{
+text-align: center;
+font-family: 'Libre Baskerville';
+background-color: whitesmoke;
+
+}
+
+
+header {
+
+background-color: bisque; 
+text-align:center; 
+padding: 1px; 
+padding-top:lem; border-radius:0.5em;
+ border: 5px solid; border-color: aquamarine;
+background:linear-gradient(to right,#833ab4 0%,#fd1d1d 50%,#fcb045 100%);
+}
+
+script{
+margin: 20px;
+color: aquamarine;
+}
+
+nav{
+    padding: 7px;
+    background-color: azure;
+    border: solid 2px ;
+    display: block;
+    }
+    
+    nav ul {
+        display: flex;
+        
+    }
+    
+    nav ul li {
+        flex: 15px;
+    }
+    
+    nav ul li a {
+        display: flex;
+        padding: 10px;
+        margin: 5px;
+    
+    }
+    
+    nav ul li a:hover {
+        background-color: rgb(163, 163, 163);
+    }
+    
+    nav ul li:hover {
+        background-color: rgb(149, 149, 143);
+    }
+    
+#Gandía{
+    border-radius: 10px;
+  border: solid 5px rgb(252, 220, 181);
+padding: 25px;
+    background-color: aliceblue;
+}
+
+#lista{
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+li {
+    text-align: left;
+   flex: 15px;
+margin: 5px;
+padding: 10px;
+font-weight: bold;
+font-style: italic;
+}
+
+
+a {
+    text-align: left;
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+li:hover {
+    background-color: rgb(149, 149, 143);
+}
+
+a:hover {
+    background-color: rgb(163, 163, 163);
+}
+
+span{
+    display: inline-block; 
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+#textodebajo{
+
+    clear: both; 
+}
+
+#pitufin {
+    text-align: justify;
+    display: flex;
+    column-gap: 40px;
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    padding-inline: 35px;
+    background-color: aliceblue;
+    border: solid 5px greenyellow;
+    align-items: flex-start;
+    }
+    
+img {
+border-radius: 20px;
+border: solid 10px rgb(30, 105, 80);
+background-position: center;
+padding: 3px;
+margin-bottom: 10px;
+display: inline-block;
+vertical-align: middle;
+display: flex;
+}
+#subtítuloplaya{
+font-size: 20px;
+
+}
+
+
+h10{
+font-size: 30px;
+    font-weight: bold;
+    font-style: italic;   
+}
+
+#mapainfo{
+
+text-align: justify;
+
+}
+
+#map{
+    border: solid 5px rgb(30, 105, 80);
+background-color: beige;
+padding: 20px;
+}
+
+#párrafogandía{
+
+    text-align: justify;
+ 
+ }
+ 
+#pitufina {
+    text-align: justify;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    column-gap: 30px;
+    margin: 10px;
+    padding-top: 5px;
+    padding-bottom: 12px;
+    padding-inline: 45px;
+    background-color: aliceblue;
+    border: solid 5px greenyellow;
+    }
+
+
+    #columna1{
+        border: solid 3px rgb(30, 105, 80);
+        margin-top: 15px;
+padding: 15px;
+background-color: azure;
+    }
+
+ #columna2{
+    border: solid 3px rgb(30, 105, 80);
+    margin-top: 15px;
+padding: 12px;
+background-color: azure;
+    }
+
+    #segundalista{
+        padding: 10px;
+        margin: 5px;
+
+    }
+    
+    h3{
+        background-color: blanchedalmond;
+        padding: 20px;
+        border: 3px solid rgb(10, 42, 70);
+        text-align: center;
+    
+    }
+    
+    
+    h4{
+    font-size: 30px;
+    text-decoration: hotpink 50px solid;
+    color: rgb(28, 109, 81);
+    
+    }
+
+    
+h5 { 
+font-size: 30px;
+text-align: center;
+
+}
+
+section {
+
+background-color:bisque;
+border: 5px solid; border-color: aquamarine;
+border-radius:2em;
+}
+
+input {
+border: 2px solid brown;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 15px;
+    border-radius: 0.4em;
+}
+
+#envío{
+    border: 2px solid rgb(27, 13, 13);
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 15px;
+    border-radius: 1em;
+
+}
+
+label{
+
+text-align: center;
+display: inline-block;
+}
+
+
+.bt1{background-color:white;border:2px solid red;color:red;}
+.bt2{background-color:blue;color:white;width:120px;padding:6px;border-radius:5px;}
+.bt3{background-color:green;color:white;font-size:1.2em; padding:12px; padding:6px;border-radius:50%;}
+
+
+textarea{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+footer{
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 5px;
+    background-color: azure;
+    border: 3px solid;
+    font-size: 18px;
+}
+
+
+
+#super{
+
+    background-color: rgb(56, 137, 137);
+}
